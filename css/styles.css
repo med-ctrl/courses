@@ -48,3 +48,31 @@ body {
 .header button:hover {
     border: #fff 2px solid;
 }
+
+
+.menu-bar {
+    display: flex;
+    padding : 20px 65px;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+
+}
+.menu-bar img {
+    width: 150px;
+}
+.menu-bar a {
+    align-self: center;
+    text-decoration: none;
+    color: rgba(0,0,0,.65);
+    font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-size-adjust: 100%;
+}
+.menu-bar a:hover {
+    color: #f12c3e;
+}
