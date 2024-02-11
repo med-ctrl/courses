@@ -4,23 +4,24 @@ html {
 body {
     margin: 0;
     min-height: auto;
-    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
 .header {
     display: flex;
     justify-content: right;
     padding: 0px 400px;
     background-color: #003359;
-    min-height: 8vh;
+    min-height: 7vh;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 .header button {
     font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     background-color: #f12c3e;
     color: #fff;
-    padding: 10px 35px;
+    padding: 10px 15px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -30,10 +31,10 @@ body {
     border-radius: 45px;
     display: flex;    
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 .header img {
-    width: 30px;
+    width: 25px;
 }
 .header a {
     color: hsla(0,0%,100%,.65);
@@ -52,14 +53,14 @@ body {
 
 .menu-bar {
     display: flex;
-    padding : 20px 65px;
+    padding : 8px 65px;
     justify-content: center;
     align-content: center;
-    gap: 30px;
+    gap: 40px;
 
 }
 .menu-bar img {
-    width: 150px;
+    width: 120px;
 }
 .menu-bar a {
     align-self: center;
@@ -75,4 +76,192 @@ body {
 }
 .menu-bar a:hover {
     color: #f12c3e;
+}
+
+
+.all-content {
+    padding: 0px 40vh;
+}
+
+.content.one {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.content.one h1 {
+    color: #003359;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 88px;
+    margin-top: 80px;
+    margin-bottom: 27px;
+
+
+}
+.content.one p {
+    color: rgba(0,0,0,.95);
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+}
+.content.one img {
+    display: block;
+    max-width: 600px;
+    height: 100%;
+}
+.content.one button {
+    color: #fff;
+    background-color: #f12c3e;
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 0.25rem;
+    line-height: 22px;
+    max-height: max-content;
+    max-width: 100%;
+    min-height: 48px;
+    padding: 0 1rem;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+.content.two h1 {
+    padding: 40px 180px;
+    font-size : 56px;
+    text-size-adjust: 100%;
+    color: #003359;
+    width: 430px;
+    height: 230px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 72px;
+    font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.courses {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.course {
+    position: relative;
+    max-width: 175px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: #00335980;
+    padding: 10px;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 24px;
+    text-transform: uppercase;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis (...) for truncated text */
+    transition: all 0.3s ease; /* Add transition effect for smooth hover */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.course p:hover {
+    overflow: visible; /* Reveal full text upon hovering */
+    white-space: normal; /* Allow text to wrap */
+    width: auto; /* Allow width to expand to fit full text */
+}
+
+.course img {
+    width: 100%;
+    height: 100%; /* Adjust height to cover entire container */
+    object-fit: cover;
+}
+.content.two .bottom {
+    padding: 24px 176px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom p {
+    width: 325px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-family: Noto Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.bottom button {
+    background-color: #fff;
+    border: 2px solid #f12c3e;
+    color: #f12c3e;
+    padding: 0 calc(0.5rem - 2px);
+    align-items: center;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    max-height: max-content;
+    max-width: 100%;
+    min-height: 48px;
+    width: max-content;
+}
+
+
+
+.content.three {
+    display: flex;
+    gap: 150px;
+    flex-wrap: nowrap;
+    align-items: center; /* Center items vertically */
+    margin: 20px 0;
+
+}
+
+.content.three img {
+    width: 456px;
+    height: 456px;
+    box-shadow: -3rem 2rem 0 0 #003359, 0 2rem 0 0 #003359;
+}
+
+
+.content.three h1 {
+    font-size: 56px;
+    text-size-adjust: 100%;
+    color: #003359;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 72px;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.content.three p {
+    color: rgba(0, 0, 0, .65);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 20px; /* Add some space below each paragraph */
+}
+
+.content.three a {
+    color: #f12c3e;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 10px;
 }
