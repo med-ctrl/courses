@@ -273,6 +273,7 @@ body {
     display: flex;
     gap: 100px;
     margin-right: 20px;
+    margin-top: 70px;
 }
 .new .left {
     display: flex;
@@ -328,6 +329,22 @@ body {
 
 
 .content.four{
+    background-color: rgba(0,0,0,.02);
+    margin-top: 40px;
+    padding: 114px 0;
 
-
+}
+.content.four h1{
+    color: #003359;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    margin: 16px 154px ;
+    max-width: 820px;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 72px;
 }
