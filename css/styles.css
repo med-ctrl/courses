@@ -265,3 +265,69 @@ body {
     font-weight: 600;
     padding: 0 10px;
 }
+.content.three a:hover {
+    color: black;
+}
+
+.new {
+    display: flex;
+    gap: 100px;
+    margin-right: 20px;
+}
+.new .left {
+    display: flex;
+    flex-direction: column;
+}
+.new .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.images .small {
+    width: 230px;
+    height: 258px;
+}
+.left button {
+    background-color: #fff;
+    border: 2px solid #f12c3e;
+    color: #f12c3e;
+    padding: 0 calc(0.5rem - 2px);
+    align-items: center;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    max-height: max-content;
+    max-width: 100%;
+    min-height: 48px;
+    width: max-content;
+    margin-top: 20px;
+    align-self: self-end;
+}
+.right h1 {
+    font-size: 56px;
+    text-size-adjust: 100%;
+    color: #003359;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 72px;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+.right p {
+    color: rgba(0, 0, 0, .65);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+.content.four{
+
+
+}
