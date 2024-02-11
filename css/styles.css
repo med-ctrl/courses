@@ -289,7 +289,7 @@ body {
     width: 230px;
     height: 258px;
 }
-.left button {
+.new .left button {
     background-color: #fff;
     border: 2px solid #f12c3e;
     color: #f12c3e;
@@ -306,7 +306,7 @@ body {
     margin-top: 20px;
     align-self: self-end;
 }
-.right h1 {
+.new .right h1 {
     font-size: 56px;
     text-size-adjust: 100%;
     color: #003359;
@@ -316,7 +316,7 @@ body {
     line-height: 72px;
     margin-bottom: 20px; /* Add some space below the heading */
 }
-.right p {
+.new .right p {
     color: rgba(0, 0, 0, .65);
     font-weight: 800;
     font-size: 32px;
@@ -347,4 +347,95 @@ body {
     font-weight: 800;
     letter-spacing: -.04em;
     line-height: 72px;
+}
+
+
+.content.five {
+    background-color: #003359;
+    color: hsla(0,0%,100%,.65);
+    padding: 100px 0;
+}
+.content.five .five{
+    margin: 0 387.2px;
+}
+.five h1{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    line-height: 72px;
+    width: 676px;
+    height: 144px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.five button {
+    color: #fff;
+    background-color: #f12c3e;
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 0.25rem;
+    line-height: 22px;
+    max-height: max-content;
+    max-width: 100%;
+    min-height: 48px;
+    padding: 0 1rem;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.five p {
+    width: 564px;
+    height: 48px;
+    font-feature-settings: "pnum" on,"lnum" on;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.footer {
+    margin: 0 387px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 96px;
+    justify-content: space-between;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer .up {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}.footer .down {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    color: rgba(0,0,0,.35);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.footer .left {
+    display: flex;
+    gap: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer .left p:hover {
+    color:#f12c3e;
+    cursor: pointer;
+}
+.footer .right {
+    text-align: end;
 }
